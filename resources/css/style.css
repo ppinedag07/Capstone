@@ -26,6 +26,13 @@ p {
   line-height: 1.3rem;
 }
 
+.container {
+  max-width: 1440px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Header */
 
 .header-container {
@@ -34,8 +41,10 @@ p {
   display: flex;
   align-items: center;
   height: 4rem;
-  min-width: 100%;
+  width: 100%;
   background-color: #BF6724;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo {
@@ -205,6 +214,8 @@ header span {
 
 .information {
   display: flex;
+  border-left: 1pt solid #c2cad0;
+  border-right: 1pt solid #c2cad0;
 }
 
 .main {
@@ -389,7 +400,7 @@ transition: all 0.5s ease-out 0.1s;
   align-content: center;
   justify-content: center;
   margin: 0 4.5rem;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .field {
@@ -475,6 +486,12 @@ transition: all 0.5s ease-out 0.1s;
 }
 
 /* Thesis Section */
+
+.thesis {
+  border-left: 1pt solid #c2cad0;
+  border-right: 1pt solid #c2cad0;
+  padding-bottom: 2rem;
+}
 
 .thesis h2 {
   text-align: center;
@@ -586,7 +603,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
   padding: 1rem 1.5rem;
   color: #BF6724;
   background-color: #000000;
